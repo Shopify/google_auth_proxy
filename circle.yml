@@ -2,10 +2,12 @@ machine:
   environment:
     USERGOPATH: "/home/ubuntu/.go_workspace"
     IMPORTPATH: "github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"
+  ruby:
+    version: 2.3.0
 
 dependencies:
   pre:
-    - go get github.com/tools/godep
+    - go get github.com/golang/dep/cmd/dep
     - bundle install --without development
   override:
     - mkdir -p "$USERGOPATH/src/$IMPORTPATH"
