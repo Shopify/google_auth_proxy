@@ -11,6 +11,7 @@ dependencies:
     - uname -r
     - go version
     - go get github.com/golang/dep/cmd/dep
+    - dep ensure
     - bundle install --without development
   override:
     - mkdir -p "$USERGOPATH/src/$IMPORTPATH"
