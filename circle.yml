@@ -7,6 +7,9 @@ machine:
 
 dependencies:
   pre:
+    - ruby --version
+    - uname -r
+    - go version
     - go get github.com/golang/dep/cmd/dep
     - bundle install --without development
   override:
