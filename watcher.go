@@ -7,8 +7,7 @@ import (
 	"os"
 	"path/filepath"
 	"time"
-
-	"gopkg.in/fsnotify.v1"
+	"github.com/fsnotify/fsnotify"
 )
 
 func WaitForReplacement(filename string, op fsnotify.Op,
