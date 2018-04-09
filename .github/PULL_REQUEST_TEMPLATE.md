@@ -4,4 +4,4 @@ Please include a summary of the change and relevant context. If it fixes an issu
 
 Fixes # (issue)
 
-*Important note: this is a public repository*
+**Important note: this is a public repository**
