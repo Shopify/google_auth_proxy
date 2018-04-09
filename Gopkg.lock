@@ -34,8 +34,8 @@
 [[projects]]
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
-  revision = "836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6"
-  version = "v1.2.11"
+  revision = "c2828203cd70a50dcccfb2761f8b1f8ceef9a8e9"
+  version = "v1.4.7"
 
 [[projects]]
   branch = "master"
@@ -93,6 +93,12 @@
 
 [[projects]]
   branch = "master"
+  name = "golang.org/x/sys"
+  packages = ["unix"]
+  revision = "3b87a42e500a6dc65dae1a55d0b641295971163e"
+
+[[projects]]
+  branch = "master"
   name = "google.golang.org/api"
   packages = ["admin/directory/v1","gensupport","googleapi","googleapi/internal/uritemplates"]
   revision = "8791354e7ab150705ede13637a18c1fcc16b62e8"
@@ -112,6 +118,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "40e3247e961bcf9773ad159f35a3fe247f089dcdf4b4e46ba4d285be969440cb"
+  inputs-digest = "4afc7fa0763075989ff9b8b0b58c52e6e1d2d23043c232be2b20f124bc55fcb0"
   solver-name = "gps-cdcl"
   solver-version = 1
